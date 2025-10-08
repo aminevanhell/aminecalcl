@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(138, 138, 143);
+}
+section{
+    display: flex;
+   justify-content: space-around; 
+    align-content: center;
+    margin-top: 30vh;
+}
+.crd{
+    background-color: beige;
+    width: 100vh;
+    height: 60vh;
+    align-content: center;
+    border-radius: 10px;
+}
+.tp{
+    display: flex;
+    justify-content: space-around;
+}
+.ttl{
+    display: flex;
+    justify-content: space-around;
+}
+.btn2{
+ margin-left: 15vh;
+}
+.btn2 button{
+    width: 70vh;
+    height: 8vh;
+    border-radius: 10px;
+    background-color: rgb(15, 15, 15);
+    font-size: x-large;
+    color: aliceblue;
+}
+.cntnt input{
+height: 30px;
+width: 50vh;
+border-radius: 10px;
+}
+.btns1{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(20px, 1fr));
+    gap: 20px;
+    width: 380px;
+    height: 100px;
+    padding-left: 10vh;
+}
+.btns1 button{
+    border-radius: 10px;
+    float: left 20vh;
+    background-color: rgba(22, 22, 22, 0.938);
+    font-size: x-large;
+    color: aliceblue;
+}
+.custm.btn{
+    color: rgba(9, 9, 9, 0.923);
+    background-color: aliceblue;
+}
+.cntnt{
+    background-color: beige;
+    width: 70vh;
+    justify-content: space-around;
+    height: 60vh;
+    align-content: space-around;
+    border-radius: 10px;
+}
+.ipt{
+    padding-left: 10vh;
+}
+.ipt2{
+    padding-left: 10vh;
+}
